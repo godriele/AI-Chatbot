@@ -1,0 +1,326 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["Hi", "Hey", "How are you!", "Hello", "Good morning", "What's up?", "Howdy", "Yo", "Greetings"],
+        "responses": ["Hello!", "Good to see you!", "Hi there!", "Hey! How can I help?", "Hey, what's up?"]
+      },
+      {
+        "tag": "goodbyes",
+        "patterns": ["Goodbye", "See you", "Bye", "Take care", "Catch you later", "Talk to you soon", "Farewell"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Bye for now!", "Talk to you soon!", "Have a great day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it", "Much appreciated", "You're awesome, thanks"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "Glad I could assist!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need help", "Can you assist me?", "Help me out", "I need assistance"],
+        "responses": ["How can I assist you?", "What do you need help with?", "I'm here to help, what can I do for you?", "Tell me what you need, and I'll assist!"]
+      },
+      {
+        "tag": "affirmations",
+        "patterns": ["Yes", "Sure", "Absolutely", "Of course", "Definitely", "That's correct"],
+        "responses": ["Great! Let's move forward.", "Awesome! I'm here to help.", "Perfect, let's get started.", "Good to hear! Let's proceed."]
+      },
+      {
+        "tag": "apologies",
+        "patterns": ["Sorry", "My bad", "Apologies", "I apologize", "Excuse me", "Pardon me"],
+        "responses": ["No worries, it's okay!", "It's alright, don't worry!", "No problem at all!", "Apologies accepted!", "Don't worry about it!"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Is it going to rain?", "How's the weather?", "Do I need an umbrella?", "What's the temperature?", "Is it cold outside?"],
+        "responses": ["I’m not sure about the weather right now. You can check it online.", "I recommend checking a weather app for the latest updates!", "Sorry, I don’t have live weather updates."]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you?", "Where is Buko?", "Where are you located?", "Where do you live?"],
+        "responses": ["I exist here in the digital space!", "I'm everywhere and nowhere at the same time.", "I live in the cloud, always available to help you."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What’s your name?", "Who are you?", "What should I call you?", "What's your name, Buko?"],
+        "responses": ["I'm Buko, your friendly chatbot!", "Call me Buko!", "My name is Buko, nice to meet you!"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "Make me laugh", "Tell me something funny", "Can you tell a joke?"],
+        "responses": ["Why don't skeletons fight each other? They don't have the guts!", "Why don't eggs tell jokes? They'd crack each other up!", "I used to play piano by ear, but now I use my hands."]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I need motivation", "Give me some encouragement", "Tell me something inspiring", "I need a pep talk"],
+        "responses": ["You're doing great, keep going!", "Believe in yourself, you've got this!", "Every step forward is progress!", "Stay positive, you can do it!"]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Tell me the time", "Do you know the time?", "What’s the current time?", "What time is it in my location?"],
+        "responses": ["I don't have the time right now, but you can check your device for the current time!", "Sorry, I can't tell the time at the moment."]
+      },
+      {
+        "tag": "feedback",
+        "patterns": ["How am I doing?", "Do you think I'm doing well?", "Can I improve?", "How's my performance?", "Do you like me?"],
+        "responses": ["You're doing great! Keep it up!", "I think you're awesome!", "You're doing just fine, don't worry!", "You're amazing! Keep going!"]
+      },
+      {
+        "tag": "good_night",
+        "patterns": ["Good night", "Sleep well", "Have a good night", "Sweet dreams", "Night Buko"],
+        "responses": ["Good night! Sleep tight!", "Sweet dreams! See you tomorrow!", "Good night! Take care!", "Sleep well, see you soon!"]
+      },
+      {
+        "tag": "small_talk",
+        "patterns": ["How's it going?", "What's up?", "What are you up to?", "How’s everything?", "What’s new?"],
+        "responses": ["I'm here and ready to help!", "I'm just waiting to assist you!", "Not much, just hanging out here!", "All good, what can I help you with today?"]
+      },
+      {
+        "tag": "compliments",
+        "patterns": ["You're awesome", "You're great", "I like you", "You're the best", "You're amazing"],
+        "responses": ["Thank you! You're awesome too!", "You're too kind, thank you!", "I appreciate that, you're great too!", "You're amazing as well!"]
+      },
+      {
+        "tag": "question_about_bot",
+        "patterns": ["What can you do?", "What are your abilities?", "What can you help with?", "Tell me what you can do", "What is your purpose?"],
+        "responses": ["I can assist with all sorts of things! From answering questions to telling jokes, I'm here to help!", "I can help you with information, tasks, and even small talk!", "I'm here to assist you with anything you need, just ask away!"]
+      },
+      {
+        "tag": "thank_you",
+        "patterns": ["Thank you so much", "Thanks a lot", "I really appreciate it", "You're a lifesaver", "Thanks for your help"],
+        "responses": ["You're welcome!", "No problem at all!", "I'm happy to help!", "Anytime! Glad I could assist!"]
+      },
+      {
+        "tag": "random_fact",
+        "patterns": ["Tell me a fun fact", "Give me a random fact", "Tell me something interesting", "Share a fun fact"],
+        "responses": ["Did you know that honey never spoils? Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old!", "Here's a fun fact: A day on Venus is longer than a year on Venus!", "Did you know octopuses have three hearts?"]
+      },
+      {
+        "tag": "complaint",
+        "patterns": ["I'm not happy", "This isn't working", "I'm frustrated", "This is annoying", "I don't like this"],
+        "responses": ["I'm really sorry you're feeling that way. How can I help to make it better?", "I understand, let me know how I can assist in fixing this.", "I’m sorry for the inconvenience. Let me know what I can do to help."]
+      },
+      {
+        "tag": "motivation",
+        "patterns": [
+          "I need motivation",
+          "Give me some encouragement",
+          "Tell me something inspiring",
+          "I need a pep talk",
+          "Help me stay motivated"
+        ],
+        "responses": [
+          "You're doing great, keep going!",
+          "Believe in yourself, you've got this!",
+          "Every step forward is progress!",
+          "Stay positive, you can do it!",
+          "Success is just around the corner, keep pushing!"
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "What's for dinner?",
+          "What should I eat?",
+          "I'm hungry",
+          "Any food recommendations?",
+          "What do you suggest for lunch?"
+        ],
+        "responses": [
+          "How about trying some pasta tonight?",
+          "Maybe some sushi? It's always a great choice!",
+          "A hearty salad could be a good option!",
+          "How about a nice burger? Always satisfying!",
+          "If you're craving something light, maybe a smoothie?"
+        ]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": [
+          "What are your hobbies?",
+          "What do you like to do in your free time?",
+          "What should I do for fun?",
+          "Any hobby ideas?",
+          "What are some cool hobbies?"
+        ],
+        "responses": [
+          "I enjoy chatting with people like you!",
+          "I love learning new things every day!",
+          "How about picking up a new hobby like painting or coding?",
+          "You could try photography, it's so rewarding!",
+          "Have you ever tried gardening? It's really peaceful!"
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "What music do you like?",
+          "Can you recommend a song?",
+          "I need some music suggestions",
+          "What’s your favorite genre?",
+          "What’s trending in music?"
+        ],
+        "responses": [
+          "I love all kinds of music! How about some classic rock?",
+          "If you're in the mood for something chill, try lo-fi beats.",
+          "I think you might enjoy some upbeat pop music today!",
+          "How about some jazz? It’s perfect for relaxing.",
+          "Check out the latest hits in the pop charts!"
+        ]
+      },
+      {
+        "tag": "travel",
+        "patterns": [
+          "Where should I travel next?",
+          "Give me travel suggestions",
+          "What’s a good vacation spot?",
+          "Where do you recommend I go for a trip?",
+          "Tell me about some cool destinations"
+        ],
+        "responses": [
+          "How about visiting Paris for some culture and history?",
+          "You could check out Tokyo, it’s an amazing mix of tradition and technology!",
+          "I recommend a trip to the beaches of Bali for some relaxation.",
+          "New Zealand is perfect for adventure lovers!",
+          "Consider visiting the Swiss Alps for breathtaking views and skiing!"
+        ]
+      },
+      {
+        "tag": "fitness",
+        "patterns": [
+          "What’s a good workout?",
+          "Give me fitness tips",
+          "How can I get fit?",
+          "What should I do to stay healthy?",
+          "Any exercise recommendations?"
+        ],
+        "responses": [
+          "How about a mix of cardio and strength training?",
+          "Yoga is great for flexibility and relaxation!",
+          "You could try running or cycling for a great workout!",
+          "Don’t forget to stretch before and after exercising!",
+          "A full-body workout with squats, push-ups, and lunges is always effective!"
+        ]
+      },
+      {
+        "tag": "technology",
+        "patterns": [
+          "What’s new in technology?",
+          "Tell me about the latest tech trends",
+          "What’s happening in the tech world?",
+          "Can you recommend a tech gadget?",
+          "Any cool tech innovations?"
+        ],
+        "responses": [
+          "Artificial intelligence is really taking off these days!",
+          "The latest smartphones are packed with amazing features!",
+          "Have you seen the new VR headsets? They're mind-blowing!",
+          "Wearable tech like fitness trackers is becoming more popular.",
+          "Quantum computing is an exciting frontier in technology!"
+        ]
+      },
+      {
+        "tag": "sports",
+        "patterns": [
+          "What’s your favorite sport?",
+          "Can you give me sports updates?",
+          "Tell me about the latest sports news",
+          "What sport should I try?",
+          "Who won the latest game?"
+        ],
+        "responses": [
+          "I love soccer! It's such an exciting sport.",
+          "Basketball is a great sport if you enjoy fast-paced action.",
+          "You could try tennis, it's fun and great for fitness!",
+          "Cricket is a fascinating sport, especially if you're into strategy.",
+          "How about giving swimming a try? It's a great full-body workout!"
+        ]
+      },
+      {
+        "tag": "quotes",
+        "patterns": [
+          "Tell me a quote",
+          "Give me an inspirational quote",
+          "I need a motivational quote",
+          "Share a famous quote",
+          "What's a good quote for today?"
+        ],
+        "responses": [
+          "\"The only way to do great work is to love what you do.\" – Steve Jobs",
+          "\"Success is not final, failure is not fatal: It is the courage to continue that counts.\" – Winston Churchill",
+          "\"Believe you can and you're halfway there.\" – Theodore Roosevelt",
+          "\"The future belongs to those who believe in the beauty of their dreams.\" – Eleanor Roosevelt",
+          "\"In the middle of every difficulty lies opportunity.\" – Albert Einstein"
+        ]
+      },
+      {
+        "tag": "fun_facts",
+        "patterns": [
+          "Tell me a fun fact",
+          "Give me a random fact",
+          "Share an interesting fact",
+          "Tell me something cool",
+          "What's a fun fact?"
+        ],
+        "responses": [
+          "Did you know that octopuses have three hearts?",
+          "A day on Venus is longer than a year on Venus!",
+          "Honey never spoils. Archaeologists have found pots of honey in ancient tombs that are over 3,000 years old!",
+          "Did you know that a group of flamingos is called a 'flamboyance'?",
+          "Bananas are berries, but strawberries aren’t!"
+        ]
+      },
+      {
+        "tag": "relationships",
+        "patterns": [
+          "Can you give relationship advice?",
+          "What should I do if I like someone?",
+          "How can I improve my relationship?",
+          "Any tips for healthy relationships?",
+          "What makes a good relationship?"
+        ],
+        "responses": [
+          "Communication is key in any relationship!",
+          "Always be honest and open with your feelings.",
+          "Respect and trust are the foundation of any strong relationship.",
+          "Take time to listen to your partner and show appreciation.",
+          "It’s important to give each other space while also spending quality time together."
+        ]
+      },
+      {
+        "tag": "self_care",
+        "patterns": [
+          "How can I take care of myself?",
+          "What are some self-care tips?",
+          "Give me self-care advice",
+          "How do I improve my well-being?",
+          "Any suggestions for self-care?"
+        ],
+        "responses": [
+          "Make sure to take breaks and rest when needed!",
+          "Exercise regularly to keep both your body and mind healthy.",
+          "It’s important to set aside time for relaxation and hobbies.",
+          "Meditation and mindfulness can help improve mental well-being.",
+          "Don't forget to nourish your body with healthy food and water!"
+        ]
+      },
+      {
+        "tag": "books",
+        "patterns": [
+          "What books do you recommend?",
+          "Tell me about a good book",
+          "What’s a great book to read?",
+          "Give me a book suggestion",
+          "What’s your favorite book?"
+        ],
+        "responses": [
+          "If you enjoy fantasy, I recommend 'The Hobbit' by J.R.R. Tolkien.",
+          "Try reading '1984' by George Orwell if you're into dystopian novels.",
+          "For a gripping mystery, 'The Girl with the Dragon Tattoo' by Stieg Larsson is a great choice.",
+          "'To Kill a Mockingbird' by Harper Lee is a classic you should read.",
+          "If you're into self-improvement, 'Atomic Habits' by James Clear is a must-read."
+        ]
+      }
+    ]
+  }
+  
